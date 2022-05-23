@@ -11,6 +11,6 @@ public class DestroyObjTimer : MonoBehaviour
 
     IEnumerator waiter()
     {
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(8.5f);
         Object.Destroy(this.gameObject);}
 }
