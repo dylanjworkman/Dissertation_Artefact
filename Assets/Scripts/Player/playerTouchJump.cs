@@ -6,7 +6,7 @@ public class playerTouchJump : MonoBehaviour
 {
     private Rigidbody rb;
 
-    private float jumpForce = 400f;
+    public float jumpForce = 400f;
 
     // Start is called before the first frame update
     private void Start()
