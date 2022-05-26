@@ -10,6 +10,6 @@ public class ScoreManager : MonoBehaviour
     public static int theScore;
 
     void Update(){
-        scoreText.GetComponent<Text>().text = "Score: " + theScore;
+        scoreText.GetComponent<Text>().text = "Points: " + theScore;
     }
 }
